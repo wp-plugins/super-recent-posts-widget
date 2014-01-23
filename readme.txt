@@ -4,7 +4,7 @@ Contributors: matstars
 Tags: post, widget  
 Requires at least: 3.6  
 Tested up to: 3.8  
-Stable tag: 0.1.2  
+Stable tag: 0.1.3
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -77,7 +77,7 @@ Are you using WordPress 3.6+?
 
 == Changelog ==
 
-= 0.1.2 =
+= 0.1.3 =
 * Readme edits
 
 = 0.1.1 =
