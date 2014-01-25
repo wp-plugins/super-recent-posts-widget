@@ -16,7 +16,7 @@ Drag and drop the widget and fill out the appropriate fields. Some notes:
 
 To display posts from a specific post type leave Taxonomy as "-- No Specific Taxonomy --"  
 
-If you leave order by and/or order as "-- Choose order parameter --" and/or "-- Choose orderby parameter --" it will go with WordPress' default(s), [see here](http://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters) for more information.  
+If you leave order by and/or order as "-- Default order parameter --" and/or "-- Default orderby parameter --" it will go with WordPress' default(s), [see here](http://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters) for more information.  
 
 The following filters are available: 
 
