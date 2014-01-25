@@ -4,7 +4,7 @@ Contributors: matstars
 Tags: post, widget  
 Requires at least: 3.6  
 Tested up to: 3.8  
-Stable tag: 0.1.3
+Stable tag: 0.1.4
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -76,6 +76,10 @@ Are you using WordPress 3.6+?
 1. Screenshot of widget
 
 == Changelog ==
+
+= 0.1.4 =
+* Updated transient logic to be more efficient
+* Minor helper/guide text updated
 
 = 0.1.3 =
 * Readme edits
