@@ -4,7 +4,7 @@ Contributors: matstars
 Tags: post, widget  
 Requires at least: 3.6  
 Tested up to: 3.8  
-Stable tag: 0.1.4
+Stable tag: 0.2.0
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -16,12 +16,13 @@ Drag and drop the widget and fill out the appropriate fields. Some notes:
 
 To display posts from a specific post type leave Taxonomy as "-- No Specific Taxonomy --"  
 
-If you leave order by and/or order as "-- Default order parameter --" and/or "-- Default orderby parameter --" it will go with WordPress' default(s), [see here](http://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters) for more information
+If you leave order by and/or order as "-- Choose order parameter --" and/or "-- Choose orderby parameter --" it will go with WordPress' default(s), [see here](http://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters) for more information.  
 
 The following filters are available: 
 
 *    **srpw_get_args** to override arguments of main query for the widget.  
 *    **srpw_template** to override the output template for the widget, see below for more information.  
+*    **srpw_WIDGET_NAME_template** to override the output template for the widget on a widget by widget basis, the WIDGET_NAME appears on the back-end in the widgets window see below for more information.  
 *    **widget_title** this is a WordPress core filter [see here](http://codex.wordpress.org/Plugin_API/Filter_Reference) for more information.  
 *    **srpw_post_types** to override the post types available for this widget.  
 *    **srpw_taxonomies** to override the taxonomies available for this widget.  
