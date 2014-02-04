@@ -54,6 +54,16 @@ Add a "views" directory and file named "custom-srpw.php" to your template direct
     } );
     ?>`
 
+#### Example of using a custom template for a specific widget from within your theme PHP 5.3+ which allows anonymous functions
+
+    `<?php
+
+    add_filter( 'srpw_super_recent_posts_widget-10_template', function ( $template ){
+        $template_dir = get_template_directory();
+        return $template_dir . '/views/custom-widget-10-srpw.php';    
+    } );
+    ?>`
+
 #### Grunt
 
 This plugin takes advantage of Grunt for validating JavaScript, SASS compilation and minification. To take advantage of Grunt you have to have both [npm](https://npmjs.org/) and [Grunt](http://gruntjs.com/) installed. Visit the respective sites for the applications and make sure they are installed. Once installed, if you want to edit/fork this plugin, it will be helpful to be familiar with these two tools.
