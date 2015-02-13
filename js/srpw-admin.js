@@ -1,4 +1,4 @@
-/*global srpwAjax,alert,console,jQuery,ajaxurl */
+/*global srpwAjax,console,jQuery,ajaxurl */
 var srpwForms, srpwSetupForms;
 jQuery(document).ready(function($){
     srpwForms = function(){
