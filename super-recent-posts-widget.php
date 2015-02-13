@@ -7,7 +7,7 @@
   Author URI: http://www.matgargano.com
 */
 
-require_once('lib/Class-super-recent-posts-widget.php');
-require_once('lib/Class-srpw-helper.php');
-require_once('lib/Class-srpw-ajax.php');
-Super_recent_posts_widget::init();
+require_once('lib/class-super-recent-posts-widget.php');
+require_once('lib/class-srpw-helper.php');
+require_once('lib/class-srpw-ajax.php');
+Super_Recent_Posts_Widget::init();

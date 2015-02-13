@@ -1,5 +1,5 @@
 .srpw-form .loading {
-  background: url("../img/spinner-2x.gif") no-repeat scroll center center/20px 20px rgba(0, 0, 0, 0);
+  background: url("../img/spinner-2x.gif") no-repeat scroll center center/20px 20px transparent;
   background-size: 20px 20px;
   display: none;
   opacity: .7;
@@ -9,3 +9,5 @@
   margin-top: .5rem; }
 .srpw-form .block {
   display: block; }
+
+/*# sourceMappingURL=srpw-admin.css.map */
